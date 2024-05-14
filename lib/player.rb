@@ -6,4 +6,11 @@ class Player
         
 
     end
+
+
+    def has_lost?()
+        @deck.cards.length() == 0
+    end
+
+
 end
