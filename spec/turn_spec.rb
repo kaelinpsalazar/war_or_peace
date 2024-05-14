@@ -80,16 +80,20 @@ RSpec.describe Turn do
        expect(winner).to eq(winner)
 
    end
+
+
    it "has an instance of pile_cards" do
 
-       expect(turn.pile_cards).to eq (pile_cards)
+    expect(pile_cards).to eq(pile_cards)
+   end
+
+   it "award spoils" do
+    expect(award_spoils).to eq(award_spoils)
+
 
    end
-    # it "has a type spoils_of_war" do
 
-    #     expect(turn.spoils_of_war).to eq(spoils_of_war)
-
-    # end
+   
 
 
 
